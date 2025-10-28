@@ -1,27 +1,77 @@
-# VideoPlayerDemo
+# Angular YouTube Player Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This project demonstrates a custom Angular YouTube Player built using the official `@angular/youtube-player` module.  
 
-## Development server
+It provides a full-screen responsive video player with play, pause, skip, and playback speed controls — styled using Bootstrap and Bootstrap Icons.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ #  Features
 
-## Build
+-  Responsive full-screen YouTube video player  
+-  Play, pause, skip controls  
+-  Change playback speed (0.5x → 2x)  
+-  Modern UI using Bootstrap 5 + Icons  
+-  Responsive and centered video for all screen sizes  
+-  Sticky header for consistent layout  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ #  Tech Stack
 
-## Running end-to-end tests
+| Category | Technology |
+|   --|    -|
+| Framework | [Angular 16](https://angular.io/) |
+| UI Library | [Bootstrap 5](https://getbootstrap.com/) |
+| Icons | [Bootstrap Icons](https://icons.getbootstrap.com/) |
+| YouTube API | [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player) | 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+ #  Installation  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Clone the repository**
+   git clone https://github.com/gayu9006/video-player-demo.git
+   cd video-player-demo
+  
+
+2. **Install dependencies** 
+   npm install
+  
+
+3. **Run the development server** 
+   ng serve 
+
+   Open your browser and go to   [http://localhost:4200](http://localhost:4200)
+
+ 
+
+ #   How It Works
+
+The YouTube player is integrated via Angular’s `YouTubePlayerModule`.  
+A custom `AppComponent` controls the player using Angular’s ViewChild reference.
+  
+  
+# Styling Highlights
+
+- Full-screen black background
+- Video centered horizontally and vertically
+- Responsive layout using Flexbox
+- Sticky header with subtle shadow
+
+ 
+
+ #  Project Setup Details
+
+| Command | Description |
+|   -|    -|
+| `ng serve` | Start development server |
+| `ng build` | Build production bundle |
+| `ng test` | Run unit tests |
+| `ng lint` | Check code quality |
+
+ 
+# Author
+
+** Gayatri Bodake**  
+Frontend Developer | Angular & UI Specialist  
+[GitHub](https://github.com/gayu9006)

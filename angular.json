@@ -30,8 +30,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+                "node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+               "src/styles.scss"
+            ],  
             "scripts": []
           },
           "configurations": {
@@ -100,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "df79a038-52cb-4513-b029-0508da86e603"
   }
 }
